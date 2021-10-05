@@ -124,7 +124,7 @@ NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.449
 function hungryDog(weight, age){
   let isPuppy = age < 1;
   if (isPuppy) {
-    if (age >= 7/12) {
+    if (age >= 0.583) {
       return weight * 0.04;
     } else if (age >= 4/12) {
       return weight * 0.05;
@@ -209,7 +209,7 @@ Using the miles function below do the following:
 */
 
 function miles(km){
-  return km * 0.621;
+  return km * 0.621371;
 }
 
 
@@ -223,7 +223,7 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  return cm * 0.033;
+  return cm / 30.48;
 }
 
 
